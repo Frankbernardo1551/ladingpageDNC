@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Escola DNC</title>
+</head>
+<body>
+    <DIv id="menusup" ><a href="https://www.escoladnc.com.br"> <img src="/Imagens/Logo.svg" id="Logo" alt=""> </a>
+   
+        <script src="funcionalidade.js"></script>
+        <h1 id="titulo-menu"> Dê os primeiros passos da <br>
+             sua carreira em Tecnologia</h1>
+            
+        <p id="titulo-superior"> Inscreva-se no curso gratuito de Introdução à <br>
+             Tecnologia da DNC School e aprenda os principais <br>
+              fundamentos para construir experiências efetivas.</p></DIv>
+              <div id="menuinformational">
+                
+                <p class="textoinformativo"><img src="Imagens/Certificado.svg" class="icone" id="certificado" alt=""> Certificado de conclusão</p>
+                
+                <p class="textoinformativo"><img src="Imagens/Time.svg" class="icone" id="relogio" alt=""> 4 horas de conteúdo</p>
+                
+                <p class="textoinformativo"><img src="Imagens/camera.svg" class="icone" id="camera" alt=""> Aulas online gravadas</p>
+              </div>
+
+              <script src="funcionalidade.js" ></script>
+<!--MENU VIDEO-->
+              <div id="depoiment">
+                <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <div><h1 id="titletextvideo"><br> <br> Aprenda com especialistas e <br> comece seu primeiro projeto</h1>
+                    <p id="pvideo">Conheça o processo de desenvolvimento e entenda como utilizar <br> os principais métodos e ferramentas da área para resolver <br> problemas complexos. <br><br>
+    
+                        Conquiste seu certificado e desenvolva um projeto prático para <br> aplicar seus conhecimentos.</p>
+    </div>
+                
+              </div>
+    <!--Carrossel-->
+    
+              <div id="carrossel">
+            
+
+                <h1 id="titulo-carrossel"> Mais de 500 alunos já iniciaram seus estudos </h1>
+                <div id="div-cards">
+                    <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="./Imagens/seta-esquerda.svg" alt="">
+                    <img id="Leonardo" class="card" src="./Imagens/leonardo.svg" alt="">
+                    <img id="Samantha" class="card" src="./Imagens/Samantha.svg" alt="">
+                    <img id="Bruna"  class="card" src="./Imagens/Bruna.svg" alt="">
+                    <img id="seta-direita" onclick="RolarParaDireita()" class="seta" src="./Imagens/seta-direita.svg" alt="">
+
+                </div>
+                
+                
+    </div>
+    <!---Formulario-->
+    <div id="formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo a sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/6AuZmFhxxEpERJHKWv9zao" method="post">
+             
+            <input id="textform" type="text"  required placeholder="Nome" name="name" required><br>
+            <input id="emailform" type="email" placeholder="Email" name="Email" required><br>
+            <input id="numberform" type="number" placeholder="telefone" name="number" required><br>
+            <button type="submit" id="buttonform"> Acesse a ementa gratis</button>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <form action="https://api.sheetmonkey.io/form/6AuZmFhxxEpERJHKWv9zao" method="post">
+                
+        </form>
+    </div>
+
+</body>
+</html>
